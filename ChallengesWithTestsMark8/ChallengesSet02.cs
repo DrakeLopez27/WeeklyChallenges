@@ -7,7 +7,20 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            if(char.IsLetter(c))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }  
+                 
+            
+            
+
+            
+
         }
 
         public bool CountOfElementsIsEven(string[] vals)
